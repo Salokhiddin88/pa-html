@@ -1,0 +1,521 @@
+@charset "UTF-8";
+/*CSS Document */
+/*div {
+			 	color: #666666;
+			 	width: 80%;
+			 	margin-top:20px;
+			 	margin-right:auto;
+			 	margin-left:auto;
+			 	}
+				*/
+html,body{
+	      margin: 0;
+				padding: 0;
+				font-family:"ヒラギノ　角ゴ　Pro W3", "Hiragino Kaku Gothic Pro","メイリオ",
+				Meiryo,Osaka,"MS Pゴシック", "MS PGothic", "sans-serif";
+				font-size: 16px;
+				color: #333;
+			  }
+h1, h2, h3, h4, h5, h6 {
+					margin: 0;
+          padding: 0;
+				}
+ h2.aboutme {
+	   height: 40px;
+     font-size: 26px;
+     padding: 5px 0px 5px 10px;
+		 border-left: 5px solid #4169e1;
+		 border-bottom:1px solid #4169e1;
+		 margin-bottom: 30px;
+     }
+p  {
+		margin-bottom: 30px;
+
+   }
+a  {
+	  text-decoration: none;
+   }
+
+body {
+      width: 100%;
+			background: #efefef;
+      }
+header {
+	      width: 960px;
+				height: 160px;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;
+				vertical-align: middle;
+       }
+.title-area {
+             height: 40px;
+						 padding-top: 30px;
+						 padding-bottom: 30px;
+						 background: linear-gradient(#4169e1, #1e90ff);
+            }
+nav   {
+	    height: 60px;
+		  margin: 0;
+		  padding: 0;
+		  box-sizing: border-box;
+		  background: #1e90ff;
+     }
+nav ul {
+	      width: 100%;
+				margin: 0;
+				padding: 0;
+				font-size: 0;
+       }
+nav ul li {
+	      display: inline-block;
+				width: 33.3333333333%;
+				height:60px;
+				margin: 0;
+				padding: 0;
+       }
+nav ul li a {
+	      display: block;
+				font-size: 20px;
+				font-weight: bold;
+				color: #fff;
+				text-decoration: none;
+				height: 30px;
+				line-height: 30px;
+				padding: 15px 0;
+				border-top: 1px solid #fff;
+				border-left: 1px solid #ffffff;
+       }
+nav ul li a:hover {
+	      font-size: 22px;
+				color: orange;
+				padding: 14px 0 15px 0;
+       }
+nav ul li a.current {
+	      color: orange;
+       }
+nav ul li:first-child a {
+        border-left:none;
+			 }
+.page-title {
+        font-size: 2.2em;
+				line-height: 40px;
+				margin: 0;
+				color: white;
+       }
+#container {
+	      width: 960px;
+	      min-height: 100%;
+        margin-left:auto;
+				margin-right: auto;
+				background: #fafafa;
+       }
+#main {
+      width: 70%;
+			background: #fff;
+			margin:0;
+			float: left;
+		  }
+.main-inner {
+				padding: 50px;
+			}
+#sub {
+	    width: 30%;
+			background: #fafafa;
+			margin:0;
+
+			float: left;
+			height:auto;
+
+      }
+footer {
+	    clear: both;
+      margin-left: auto;
+	    margin-right: auto;
+      padding: 15px 0;
+			background: #4169e1;
+			text-align: center;
+			color: #fff
+			}
+footer span.name {
+	     font-weight: bold;
+       }
+.title {
+       margin: 0 0 30px 0;
+			 height: 40px;
+			 line-height: 30px;
+			 font-size: 26px;
+			 padding: 5px 0 5px 10px;
+			 border-left: 5px solid #4169e1;
+			 border-bottom: 1px solid #4169e1;
+       }
+img {
+			width:100%;
+			margin:0px;
+			margin-bottom: 30px;
+        }
+table#saloxa1  {
+
+	      width: 100%;
+	      border: solid 1px;
+	      border-spacing:0;
+				margin-bottom: 30px;
+
+	   }
+table#saloxa1 tr th,
+table#saloxa1 tr td {
+	      border:1px solid #696969;
+	      padding:10px;
+	   }
+table#saloxa1  th {
+	      background: #4169e1;
+				text-align: center;
+				color: #fff;
+	   }
+table tr #class1{
+	      background: #1e90ff;
+				text-align: center;
+				color: #fff;
+    }
+
+	#sub {
+		margin:1em 0;
+		padding:0;
+		width:30%;
+		}
+	#sub dl {
+		margin:0;
+		padding:0;
+		background:white;
+		}
+	#sub dl dt {
+
+		padding:5px;
+
+		background:#1e90ff;
+		font-size:15px;
+		line-height:2.2em;
+		font-weight:bold;
+		color:white;
+		text-indent:0.7em;
+		}
+	#sub dl dd {
+
+    font-size:15px;
+
+		padding-bottom:0.3em;
+		}
+	#sub dl dd a {
+		display:block;
+		color: #666;
+		background:white;
+
+		}
+	#sub dl dd a:hover {
+    color:#f90;
+		background-position:10px center;
+	  }
+ #botan {
+			background: #ffdead;
+      border:2px solid #ff571a;
+			height:35px;
+			border-radius:40px;
+			box-shadow:1 5px 2px #666;
+			color:black;
+		  font-weight:bold;
+			font-size:15px;
+			line-height:30px;
+			text-align:center;
+			padding:15px;
+			display: block;
+			width: 200px;
+			margin-left: auto;
+			margin-right: auto;
+			}
+hr {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: #a9a9a9;
+}
+#botan:hover {
+	      font-size: 15px;
+				color: orange;
+       }
+h3  {
+	float:right;
+  padding:15px;
+	}
+	h4.aboutme {
+			height: 25px;
+			font-size: 15px;
+			padding: 5px 0px 5px 10px;
+			border-left: 5px solid #4169e1;
+			margin-bottom: 15px;
+			}
+nav.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+nav.sticky + .content {
+  padding-top: 102px;
+}
+@media screen and (max-width: 480px){
+
+	html,body{
+		      width:100%;
+		      margin: 0;
+					padding: 0;
+					font-family:"ヒラギノ　角ゴ　Pro W3", "Hiragino Kaku Gothic Pro","メイリオ",
+					Meiryo,Osaka,"MS Pゴシック", "MS PGothic", "sans-serif";
+					font-size: 16px;
+					color: #333;
+				  }
+	h1, h2, h3, h4, h5, h6 {
+						margin: 0;
+	          padding: 0;
+					}
+	 h2.aboutme {
+		   height: 40px;
+	     font-size: 26px;
+	     padding: 5px 0px 5px 10px;
+			 border-left: 5px solid #4169e1;
+			 border-bottom:1px solid #4169e1;
+			 margin-bottom: 30px;
+	     }
+	p  {
+			margin-bottom: 30px;
+	   }
+	a  {
+		  text-decoration: none;
+	   }
+
+	body {
+	      width: 100%;
+				background: #efefef;
+	      }
+	header {
+		      width: 100%;
+					height: 300px;
+					margin-left: auto;
+					margin-right: auto;
+					text-align: center;
+					vertical-align: middle;
+
+	       }
+	.title-area {
+		           font-size:10px;
+	             height: 40px;
+							 padding-top: 30px;
+							 padding-bottom: 30px;
+							 background: linear-gradient(#4169e1, #1e90ff);
+	            }
+	nav   {
+		    width: 100%;
+		    height: 280px;
+			  margin: 0;
+			  padding: 0;
+			  box-sizing: border-box;
+			  background: #1e90ff;
+	     }
+	nav ul {
+		      width: 100%;
+					margin: 0;
+					padding: 0;
+					font-size: 0;
+	       }
+	nav ul li {
+		      display: inline-block;
+					width: 100%;
+					height:60px;
+					margin: 0;
+					padding: 0;
+
+	       }
+	nav ul li a {
+		      width:100%;
+		      display: block;
+					font-size: 20px;
+					font-weight: bold;
+					color: #fff;
+					text-decoration: none;
+					height: 30px;
+					line-height: 30px;
+					padding: 15px 0;
+					border-top: 1px solid #fff;
+					border-left: 0;
+	       }
+	nav ul li a:hover {
+		      font-size: 22px;
+					color: orange;
+					padding: 14px 0 15px 0;
+	       }
+	nav ul li a.current {
+		      color: orange;
+	       }
+	nav ul li:first-child a {
+	        border-left:none;
+				 }
+	.page-title {
+	        font-size: 2.2em;
+					line-height: 40px;
+					margin: 0;
+					color: white;
+	       }
+	#container {
+		      width: 100%;
+		      min-height: 100%;
+	        margin-left:auto;
+					margin-right: auto;
+					background: #fafafa;
+	       }
+	#main {
+	      width: 100%;
+				background: #fff;
+				margin:0;
+				float: left;
+			  }
+	.main-inner {
+					padding: 15px;
+				}
+	#sub {
+		    width: 100%;
+				background: #fafafa;
+				margin:0;
+
+				float: left;
+				height:auto;
+
+	      }
+	footer {
+		    clear: both;
+	      margin-left: auto;
+		    margin-right: auto;
+	      padding: 15px 0;
+				background: #4169e1;
+				text-align: center;
+				color: #fff
+				}
+	footer span.name {
+		     font-weight: bold;
+	       }
+	.title {
+	       margin: 0 0 30px 0;
+				 height: 40px;
+				 line-height: 30px;
+				 font-size: 26px;
+				 padding: 5px 0 5px 10px;
+				 border-left: 5px solid #4169e1;
+				 border-bottom: 1px solid #4169e1;
+	       }
+	img {
+				width:100%;
+				margin:0px;
+				margin-bottom: 30px;
+	        }
+	table#saloxa1  {
+		      width:100%;
+		      border: solid 1px;
+		      border-spacing:0;
+					margin-bottom: 30px;
+		   }
+	table#saloxa1 tr th,
+	table#saloxa1 tr td {
+
+		      border:1px solid #696969;
+		      padding:10px;
+		   }
+	table#saloxa1  th {
+
+		      background: #4169e1;
+					text-align: center;
+					color: #fff;
+		   }
+	table tr #class1{
+          width:100%;
+		      background: #1e90ff;
+					text-align: center;
+					color: #fff;
+	    }
+
+		#sub {
+			margin:1em 0;
+			padding:0;
+			width:100%;
+			}
+		#sub dl {
+			margin:0;
+			padding:0;
+			background:white;
+			}
+		#sub dl dt {
+
+			padding:5px;
+
+			background:#1e90ff;
+			font-size:15px;
+			line-height:2.2em;
+			font-weight:bold;
+			color:white;
+			text-indent:0.7em;
+			}
+		#sub dl dd {
+
+	    font-size:15px;
+
+			padding-bottom:0.3em;
+			}
+		#sub dl dd a {
+			display:block;
+			color: #666;
+			background:white;
+
+			}
+		#sub dl dd a:hover {
+	    color:#f90;
+			background-position:10px center;
+		  }
+	 #botan {
+
+				background: #ffdead;
+	      border:2px solid #ff571a;
+				height:35px;
+				border-radius:40px;
+				box-shadow:1 5px 2px #666;
+				color:black;
+			  font-weight:bold;
+				font-size:15px;
+				line-height:30px;
+				text-align:center;
+				padding:15px;
+				display: block;
+				width: 200px;
+				margin-left: auto;
+				margin-right: auto;
+				}
+	hr {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		color: #a9a9a9;
+	}
+	#botan:hover {
+		      font-size: 15px;
+					color: orange;
+	       }
+	h3  {
+		float:right;
+	  padding:15px;
+		}
+		h4.aboutme {
+				height: 25px;
+				font-size: 15px;
+				padding: 5px 0px 5px 10px;
+				border-left: 5px solid #4169e1;
+				margin-bottom: 15px;
+				}
+		nav.sticky {
+								  position: relative;
+								}
+         }
